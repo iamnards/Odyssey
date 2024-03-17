@@ -1,0 +1,4 @@
+repository "OdysseyTest@iamnards@cloud"
+  path "/"
+    br "/main"
+    co "/main"
