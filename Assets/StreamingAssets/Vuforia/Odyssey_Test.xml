@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="odyssey-oldsofa" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-oldlamp" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-oldcabinet" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-iron" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-greyvase" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-gantangan" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-ceramic" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-camera" size="1.000000 1.000000" />
     <ImageTarget name="odyssey-bottle" size="1.000000 1.000000" />
     <ImageTarget name="odyssey-vase" size="1.000000 1.000000" />
   </Tracking>

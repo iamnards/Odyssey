@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Vuforia;
 
 public class MainMenu : MonoBehaviour
 {
@@ -25,6 +24,11 @@ public class MainMenu : MonoBehaviour
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(levelIndex);
     }
+    
+    public void Reload() {
+        SceneManager.LoadScene(1);
+    }
+    
     public void QuitGame() {
         Application.Quit();
     }
