@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="odyssey-vintagebottles" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-tiklis" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-teapots" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-tachong" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-suyod" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-smokepipe" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-smalltable" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-prinsa" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-palayok" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-oldfan" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-mortar" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-lusong" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-labangan" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-kudkuran" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-karit" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-kalanan" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-kabayo" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-hihip" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-gilinganbato" size="1.000000 1.000000" />
+    <ImageTarget name="odyssey-baul" size="1.000000 1.000000" />
+  </Tracking>
+</QCARConfig>
