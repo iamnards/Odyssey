@@ -292,4 +292,88 @@ public class Anim : MonoBehaviour
         mAnimator.SetTrigger("TiklisTriggerReverse");
         mAnimator.ResetTrigger("TiklisTrigger");
     }
+
+    public void BaulScaleUp()
+    {
+        mAnimator.SetTrigger("BaulTrigger");
+        mAnimator.ResetTrigger("BaulTriggerReverse");
+    }
+
+    public void BaulScaleDown()
+    {
+        mAnimator.SetTrigger("BaulTriggerReverse");
+        mAnimator.ResetTrigger("BaulTrigger");
+    }
+
+    public void KabayoScaleUp()
+    {
+        mAnimator.SetTrigger("KabayoTrigger");
+        mAnimator.ResetTrigger("KabayoTriggerReverse");
+    }
+
+    public void KabayoScaleDown()
+    {
+        mAnimator.SetTrigger("KabayoTriggerReverse");
+        mAnimator.ResetTrigger("KabayoTrigger");
+    }
+
+    public void PalayokScaleUp()
+    {
+        mAnimator.SetTrigger("PalayokTrigger");
+        mAnimator.ResetTrigger("PalayokTriggerReverse");
+    }
+
+    public void PalayokScaleDown()
+    {
+        mAnimator.SetTrigger("PalayokTriggerReverse");
+        mAnimator.ResetTrigger("PalayokTrigger");
+    }
+
+    public void TableScaleUp()
+    {
+        mAnimator.SetTrigger("TableTrigger");
+        mAnimator.ResetTrigger("TableTriggerReverse");
+    }
+
+    public void TableScaleDown()
+    {
+        mAnimator.SetTrigger("TableTriggerReverse");
+        mAnimator.ResetTrigger("TableTrigger");
+    }
+
+    public void TanchongScaleUp()
+    {
+        mAnimator.SetTrigger("TanchongTrigger");
+        mAnimator.ResetTrigger("TanchongTriggerReverse");
+    }
+
+    public void TanchongScaleDown()
+    {
+        mAnimator.SetTrigger("TanchongTriggerReverse");
+        mAnimator.ResetTrigger("TanchongTrigger");
+    }
+
+    public void KalananScaleUp()
+    {
+        mAnimator.SetTrigger("KalananTrigger");
+        mAnimator.ResetTrigger("KalananTriggerReverse");
+    }
+
+    public void KalananScaleDown()
+    {
+        mAnimator.SetTrigger("KalananTriggerReverse");
+        mAnimator.ResetTrigger("KalananTrigger");
+    }
+
+    public void BottlesScaleUp()
+    {
+        mAnimator.SetTrigger("BottlesTrigger");
+        mAnimator.ResetTrigger("BottlesTriggerReverse");
+    }
+
+    public void BottlesScaleDown()
+    {
+        mAnimator.SetTrigger("BottlesTriggerReverse");
+        mAnimator.ResetTrigger("BottlesTrigger");
+    }
 }
