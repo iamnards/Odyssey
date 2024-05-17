@@ -376,4 +376,196 @@ public class Anim : MonoBehaviour
         mAnimator.SetTrigger("BottlesTriggerReverse");
         mAnimator.ResetTrigger("BottlesTrigger");
     }
+
+    public void RadioScaleUp()
+    {
+        mAnimator.SetTrigger("RadioTrigger");
+        mAnimator.ResetTrigger("RadioTriggerReverse");
+    }
+
+    public void RadioScaleDown()
+    {
+        mAnimator.SetTrigger("RadioTriggerReverse");
+        mAnimator.ResetTrigger("RadioTrigger");
+    }
+
+    public void CandleScaleUp()
+    {
+        mAnimator.SetTrigger("CandleTrigger");
+        mAnimator.ResetTrigger("CandleTriggerReverse");
+    }
+
+    public void CandleScaleDown()
+    {
+        mAnimator.SetTrigger("CandleTriggerReverse");
+        mAnimator.ResetTrigger("CandleTrigger");
+    }
+
+    public void AraroScaleUp()
+    {
+        mAnimator.SetTrigger("AraroTrigger");
+        mAnimator.ResetTrigger("AraroTriggerReverse");
+    }
+
+    public void AraroScaleDown()
+    {
+        mAnimator.SetTrigger("AraroTriggerReverse");
+        mAnimator.ResetTrigger("AraroTrigger");
+    }
+
+    public void FedoraScaleUp()
+    {
+        mAnimator.SetTrigger("FedoraTrigger");
+        mAnimator.ResetTrigger("FedoraTriggerReverse");
+    }
+
+    public void FedoraScaleDown()
+    {
+        mAnimator.SetTrigger("FedoraTriggerReverse");
+        mAnimator.ResetTrigger("FedoraTrigger");
+    }
+
+    public void RizalScaleUp()
+    {
+        mAnimator.SetTrigger("RizalTrigger");
+        mAnimator.ResetTrigger("RizalTriggerReverse");
+    }
+
+    public void RizalScaleDown()
+    {
+        mAnimator.SetTrigger("RizalTriggerReverse");
+        mAnimator.ResetTrigger("RizalTrigger");
+    }
+
+    public void SalakotScaleUp()
+    {
+        mAnimator.SetTrigger("SalakotTrigger");
+        mAnimator.ResetTrigger("SalakotTriggerReverse");
+    }
+
+    public void SalakotScaleDown()
+    {
+        mAnimator.SetTrigger("SalakotTriggerReverse");
+        mAnimator.ResetTrigger("SalakotTrigger");
+    }
+
+    public void KatamScaleUp()
+    {
+        mAnimator.SetTrigger("KatamTrigger");
+        mAnimator.ResetTrigger("KatamTriggerReverse");
+    }
+
+    public void KatamScaleDown()
+    {
+        mAnimator.SetTrigger("KatamTriggerReverse");
+        mAnimator.ResetTrigger("KatamTrigger");
+    }
+
+    public void RecorderScaleUp()
+    {
+        mAnimator.SetTrigger("RecorderTrigger");
+        mAnimator.ResetTrigger("RecorderTriggerReverse");
+    }
+
+    public void RecorderScaleDown()
+    {
+        mAnimator.SetTrigger("RecorderTriggerReverse");
+        mAnimator.ResetTrigger("RecorderTrigger");
+    }
+
+    public void TingkopScaleUp()
+    {
+        mAnimator.SetTrigger("TingkopTrigger");
+        mAnimator.ResetTrigger("TingkopTriggerReverse");
+    }
+
+    public void TingkopScaleDown()
+    {
+        mAnimator.SetTrigger("TingkopTriggerReverse");
+        mAnimator.ResetTrigger("TingkopTrigger");
+    }
+
+    public void LaptopScaleUp()
+    {
+        mAnimator.SetTrigger("LaptopTrigger");
+        mAnimator.ResetTrigger("LaptopTriggerReverse");
+    }
+
+    public void LaptopScaleDown()
+    {
+        mAnimator.SetTrigger("LaptopTriggerReverse");
+        mAnimator.ResetTrigger("LaptopTrigger");
+    }
+
+    public void UtensilsScaleUp()
+    {
+        mAnimator.SetTrigger("UtensilsTrigger");
+        mAnimator.ResetTrigger("UtensilsTriggerReverse");
+    }
+
+    public void UtensilsScaleDown()
+    {
+        mAnimator.SetTrigger("UtensilsTriggerReverse");
+        mAnimator.ResetTrigger("UtensilsTrigger");
+    }
+
+    public void EnriqueScaleUp()
+    {
+        mAnimator.SetTrigger("EnriqueTrigger");
+        mAnimator.ResetTrigger("EnriqueTriggerReverse");
+    }
+
+    public void EnriqueScaleDown()
+    {
+        mAnimator.SetTrigger("EnriqueTriggerReverse");
+        mAnimator.ResetTrigger("EnriqueTrigger");
+    }
+
+    public void FelipeScaleUp()
+    {
+        mAnimator.SetTrigger("FelipeTrigger");
+        mAnimator.ResetTrigger("FelipeTriggerReverse");
+    }
+
+    public void FelipeScaleDown()
+    {
+        mAnimator.SetTrigger("FelipeTriggerReverse");
+        mAnimator.ResetTrigger("FelipeTrigger");
+    }
+
+    public void NorielScaleUp()
+    {
+        mAnimator.SetTrigger("NorielTrigger");
+        mAnimator.ResetTrigger("NorielTriggerReverse");
+    }
+
+    public void NorielScaleDown()
+    {
+        mAnimator.SetTrigger("NorielTriggerReverse");
+        mAnimator.ResetTrigger("NorielTrigger");
+    }
+
+    public void DeDiosScaleUp()
+    {
+        mAnimator.SetTrigger("DeDiosTrigger");
+        mAnimator.ResetTrigger("DeDiosTriggerReverse");
+    }
+
+    public void DeDiosScaleDown()
+    {
+        mAnimator.SetTrigger("DeDiosTriggerReverse");
+        mAnimator.ResetTrigger("DeDiosTrigger");
+    }
+
+    public void AlvarezScaleUp()
+    {
+        mAnimator.SetTrigger("AlvarezTrigger");
+        mAnimator.ResetTrigger("AlvarezTriggerReverse");
+    }
+
+    public void AlvarezScaleDown()
+    {
+        mAnimator.SetTrigger("AlvarezTriggerReverse");
+        mAnimator.ResetTrigger("AlvarezTrigger");
+    }
 }
