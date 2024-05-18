@@ -22,7 +22,7 @@ public class ObjectRotate : MonoBehaviour
     void Update()
     {
         if (rotateStatus == true) {
-            objectRotate.transform.Rotate(Vector3.up, rotateSpeed * Time.deltaTime);
+            objectRotate.transform.Rotate(Vector3.forward, rotateSpeed * Time.deltaTime);
         }
     }
 }
