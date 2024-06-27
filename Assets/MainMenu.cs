@@ -6,11 +6,37 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public Animator transition;
-    public float transitionTime = 1f;
+    public float transitionTime = 0.5f;
     
     public void LoadNextLevel()
     {
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+
+    }
+    public void LoadAbout()
+    {
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 2));
+
+    }
+    public void LoadAbout2()
+    {
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 1));
+
+    }
+    public void AboutExit()
+    {
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 2));
+
+    }
+
+    public void LoadGuide()
+    {
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 3));
+
+    }
+    public void GuideExit()
+    {
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 3));
 
     }
     public void LoadPrevLevel()
